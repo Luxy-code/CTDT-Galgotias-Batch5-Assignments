@@ -1,0 +1,101 @@
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- TITLE -->
+    <mxCell id="title" value="&lt;b style='font-size:24px;'&gt;Product Storyboard: NutriPrep Smart Meal App&lt;/b&gt;&lt;br&gt;CT&amp;DT-Galgotias | Batch No:5 | Task 06" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;" vertex="1" parent="1">
+      <mxGeometry x="50" y="30" width="1400" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- PANEL 1 -->
+    <mxCell id="p1_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="140" width="400" height="300" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_title" value="&lt;b style='font-size:16px;'&gt;Scene 1: The Exhaustion&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e2e8f0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0f172a;" vertex="1" parent="1">
+      <mxGeometry x="100" y="140" width="400" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_visual" value="&lt;span style='font-size:60px;'&gt;👨‍💻 🌙&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;[Visual: Brian sitting at his desk late at night, rubbing his eyes]&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="100" y="180" width="400" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="p1_caption" value="&lt;b&gt;Caption:&lt;/b&gt; It's 8:30 PM. Brian just finished a 10-hour coding sprint. He is completely drained and starving." style="text;html=1;strokeColor=none;fillColor=#f1f5f9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="100" y="360" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- PANEL 2 -->
+    <mxCell id="p2_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;" vertex="1" parent="1">
+      <mxGeometry x="550" y="140" width="400" height="300" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_title" value="&lt;b style='font-size:16px;'&gt;Scene 2: The Frustration&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e2e8f0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0f172a;" vertex="1" parent="1">
+      <mxGeometry x="550" y="140" width="400" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_visual" value="&lt;span style='font-size:60px;'&gt;🥦 🗑️&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;[Visual: Brian opens his fridge. It contains only rotting vegetables]&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="550" y="180" width="400" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="p2_caption" value="&lt;b&gt;Dialogue:&lt;/b&gt; &quot;Ugh, I don't have the energy to chop broccoli. Looks like it's greasy takeout again...&quot;" style="text;html=1;strokeColor=none;fillColor=#f1f5f9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="550" y="360" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- PANEL 3 -->
+    <mxCell id="p3_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="140" width="400" height="300" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_title" value="&lt;b style='font-size:16px;'&gt;Scene 3: The Discovery&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e2e8f0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0f172a;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="140" width="400" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_visual" value="&lt;span style='font-size:60px;'&gt;📱 💡&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;[Visual: Brian scrolling on his phone, an ad for NutriPrep pops up]&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="180" width="400" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="p3_caption" value="&lt;b&gt;Caption:&lt;/b&gt; While waiting for his junk food, he sees an ad for NutriPrep: &quot;Healthy meals on autopilot.&quot;" style="text;html=1;strokeColor=none;fillColor=#f1f5f9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="360" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- PANEL 4 -->
+    <mxCell id="p4_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="480" width="400" height="300" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_title" value="&lt;b style='font-size:16px;'&gt;Scene 4: The Action&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e2e8f0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0f172a;" vertex="1" parent="1">
+      <mxGeometry x="100" y="480" width="400" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_visual" value="&lt;span style='font-size:60px;'&gt;⚙️ 🥗&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;[Visual: Screen recording of the app; Brian selects 'High Protein' and his delivery schedule]&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="100" y="520" width="400" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="p4_caption" value="&lt;b&gt;Caption:&lt;/b&gt; He downloads it, connects his fitness tracker, and sets up a weekly subscription in just 3 clicks." style="text;html=1;strokeColor=none;fillColor=#f1f5f9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="100" y="700" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- PANEL 5 -->
+    <mxCell id="p5_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;" vertex="1" parent="1">
+      <mxGeometry x="550" y="480" width="400" height="300" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_title" value="&lt;b style='font-size:16px;'&gt;Scene 5: The Solution&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e2e8f0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0f172a;" vertex="1" parent="1">
+      <mxGeometry x="550" y="480" width="400" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_visual" value="&lt;span style='font-size:60px;'&gt;📦 🚴&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;[Visual: A delivery rider handing Brian a sleek, insulated meal box exactly at 1:00 PM]&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="550" y="520" width="400" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="p5_caption" value="&lt;b&gt;Dialogue:&lt;/b&gt; &quot;Wow, that arrived right on schedule without me having to order it today!&quot;" style="text;html=1;strokeColor=none;fillColor=#f1f5f9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="550" y="700" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- PANEL 6 -->
+    <mxCell id="p6_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="480" width="400" height="300" as="geometry" />
+    </mxCell>
+    <mxCell id="p6_title" value="&lt;b style='font-size:16px;'&gt;Scene 6: The Resolution&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e2e8f0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0f172a;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="480" width="400" height="40" as="geometry" />
+    </mxCell>
+    <mxCell id="p6_visual" value="&lt;span style='font-size:60px;'&gt;😁 💪&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;[Visual: Brian eating a healthy meal while coding, looking energized and happy]&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="520" width="400" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="p6_caption" value="&lt;b&gt;Caption:&lt;/b&gt; He eats healthy, saves time, hits his gym goals, and has zero food waste. Problem solved." style="text;html=1;strokeColor=none;fillColor=#f1f5f9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1e293b;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="700" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- FOOTER -->
+    <mxCell id="footer" value="CTDT-Galgotias-Batch No:5 | Task 6 — Storyboarding | Student: Lakshya Kumar Gupta&#xa;🐙 GitHub: https://github.com/Luxy-code/CTDT-Galgotias-Batch5-Assignments" style="text;html=1;strokeColor=#e2e8f0;fillColor=#f8fafc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+      <mxGeometry x="100" y="820" width="1300" height="50" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

@@ -1,0 +1,59 @@
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- TITLE -->
+    <mxCell id="title" value="Task 5: Inference Mapping — Digital Twin for Rotating Machines&#xa;CT&amp;DT-Galgotias | Batch No:5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1e293b;" vertex="1" parent="1">
+      <mxGeometry x="100" y="40" width="900" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- CENTER BOX: REFERENCE ARTICLE -->
+    <mxCell id="center_article" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;REFERENCE ARTICLE&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;&quot;Implementation of Digital Twin Technology for Predictive Maintenance in Industrial Rotating Machinery&quot;&lt;/i&gt;&lt;br&gt;Source: Journal of Smart Manufacturing (2025)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#2563eb;fontColor=#1e3a8a;align=center;verticalAlign=middle;spacingLeft=15;spacingRight=15;" vertex="1" parent="1">
+      <mxGeometry x="400" y="250" width="300" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- LEFT BOX: PROBLEM -->
+    <mxCell id="left_problem" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;PROBLEM STATEMENT&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Unexpected failure of rotating machines (turbines/motors)&lt;br&gt;• High downtime costs&lt;br&gt;• Inefficient scheduled maintenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#dc2626;fontColor=#991b1b;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="260" width="250" height="130" as="geometry" />
+    </mxCell>
+
+    <!-- TOP BOX: KEY FINDINGS -->
+    <mxCell id="top_findings" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;KEY FINDINGS&lt;/b&gt;&lt;br&gt;&lt;br&gt;• IoT vibration sensors + ML algorithms can predict anomalies 4 weeks in advance.&lt;br&gt;• Virtual replicas allow simulation of stress without risking physical hardware." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#92400e;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" vertex="1" parent="1">
+      <mxGeometry x="425" y="100" width="250" height="100" as="geometry" />
+    </mxCell>
+
+    <!-- RIGHT BOX: INFERENCE -->
+    <mxCell id="right_inference" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;CORE INFERENCE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Shifting from &quot;preventive&quot; to &quot;predictive&quot; maintenance using Digital Twins reduces overall maintenance costs by 30% and virtually eliminates catastrophic failures." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;fontColor=#166534;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" vertex="1" parent="1">
+      <mxGeometry x="800" y="260" width="250" height="130" as="geometry" />
+    </mxCell>
+
+    <!-- BOTTOM BOX: APPLICATION -->
+    <mxCell id="bottom_app" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;INDUSTRIAL APPLICATION&lt;/b&gt;&lt;br&gt;&lt;br&gt;MSMEs and large power plants must invest in IoT data infrastructure before full Digital Twin deployment." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#9333ea;fontColor=#6b21a8;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" vertex="1" parent="1">
+      <mxGeometry x="425" y="450" width="250" height="100" as="geometry" />
+    </mxCell>
+
+    <!-- ARROWS -->
+    <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;" edge="1" source="left_problem" target="center_article" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;" edge="1" source="top_findings" target="center_article" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=3;endArrow=block;endFill=1;" edge="1" source="center_article" target="right_inference" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;dashed=1;" edge="1" source="center_article" target="bottom_app" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- FOOTER -->
+    <mxCell id="footer" value="&lt;b&gt;CT&amp;DT-Galgotias-Batch No:5 | Task 5 — Inference Mapping | Student: Lakshya Kumar Gupta&lt;/b&gt;&#xa;🐙 GitHub: https://github.com/Luxy-code/CTDT-Galgotias-Batch5-Assignments" style="text;html=1;strokeColor=#1e3a5f;fillColor=#f8fafc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#475569;" vertex="1" parent="1">
+      <mxGeometry x="100" y="650" width="900" height="40" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

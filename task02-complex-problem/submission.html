@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complex Problem Table – Task 02</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #e2e8f0;
+      padding: 30px 20px;
+      color: #1e293b;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: #1e3a5f;
+      padding: 28px 48px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-left h1 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .header-left p { font-size: 0.78rem; opacity: 0.75; }
+    .header-right {
+      text-align: right;
+      font-size: 0.75rem;
+      opacity: 0.8;
+    }
+    .lt-logo {
+      background: white;
+      color: #1e3a5f;
+      font-weight: 900;
+      font-size: 0.85rem;
+      padding: 6px 12px;
+      border-radius: 4px;
+      margin-bottom: 6px;
+      display: inline-block;
+    }
+
+    /* ── META ── */
+    .meta {
+      background: #f8fafc;
+      border-bottom: 2px solid #1e3a5f;
+      padding: 20px 48px;
+    }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+    }
+    .meta-item { }
+    .meta-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #94a3b8;
+      margin-bottom: 3px;
+    }
+    .meta-value { font-size: 0.82rem; font-weight: 600; color: #1e293b; }
+
+    /* ── BODY ── */
+    .body { padding: 36px 48px; }
+
+    .task-title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #1e3a5f;
+      margin-bottom: 6px;
+    }
+    .task-subtitle {
+      font-size: 0.82rem;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+    .task-note {
+      font-size: 0.78rem;
+      color: #7c3aed;
+      font-weight: 600;
+      background: #faf5ff;
+      border: 1px solid #ddd6fe;
+      border-radius: 6px;
+      padding: 8px 14px;
+      margin-bottom: 28px;
+      display: inline-block;
+    }
+
+    /* ── TABLE ── */
+    .table-wrapper { overflow-x: auto; margin-bottom: 32px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+
+    thead tr {
+      background: #1e3a5f;
+      color: white;
+    }
+    thead th {
+      padding: 14px 16px;
+      text-align: left;
+      font-weight: 700;
+      font-size: 0.78rem;
+      letter-spacing: 0.3px;
+    }
+    thead th:first-child { width: 48px; text-align: center; border-radius: 0; }
+
+    tbody tr { border-bottom: 1px solid #e2e8f0; }
+    tbody tr:nth-child(even) { background: #f8fafc; }
+    tbody tr:hover { background: #f0f9ff; }
+
+    tbody td {
+      padding: 16px;
+      vertical-align: top;
+      line-height: 1.6;
+      color: #334155;
+    }
+    tbody td:first-child {
+      text-align: center;
+      font-weight: 700;
+      color: #1e3a5f;
+      font-size: 0.88rem;
+    }
+
+    .domain-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .d1 { background: #ede9fe; color: #7c3aed; }
+    .d2 { background: #dcfce7; color: #15803d; }
+    .d3 { background: #fef3c7; color: #b45309; }
+    .d4 { background: #dbeafe; color: #1d4ed8; }
+    .d5 { background: #fee2e2; color: #dc2626; }
+    .d6 { background: #f0fdf4; color: #166534; }
+
+    .problem-text { font-weight: 600; color: #1e293b; margin-bottom: 6px; font-size: 0.83rem; }
+    .problem-detail { font-size: 0.78rem; color: #64748b; }
+
+    .just-text { font-size: 0.8rem; color: #475569; line-height: 1.65; }
+    .just-source {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 0.7rem;
+      color: #7c3aed;
+      font-weight: 600;
+    }
+
+    /* ── SUMMARY ── */
+    .summary {
+      background: linear-gradient(135deg, #1e3a5f08, #7c3aed08);
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+    .summary h3 { font-size: 0.85rem; font-weight: 700; color: #1e293b; margin-bottom: 12px; }
+    .summary-list { list-style: none; }
+    .summary-list li {
+      font-size: 0.78rem;
+      color: #475569;
+      padding: 4px 0;
+      display: flex;
+      gap: 8px;
+    }
+    .summary-list li::before { content: '▸'; color: #7c3aed; font-weight: 700; }
+
+    /* ── PATH BOX ── */
+    .path-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 24px;
+    }
+    .path-label { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-bottom: 4px; }
+    .path-value { font-size: 0.82rem; font-family: monospace; color: #7c3aed; font-weight: 600; }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: #1e3a5f;
+      color: white;
+      padding: 16px 48px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.72rem;
+      opacity: 0.9;
+    }
+
+    /* ── PRINT ── */
+    @page {
+      margin: 0;
+      size: A4;
+    }
+    @media print {
+      body { background: white; padding: 0; }
+      .print-btn { display: none !important; }
+      .page { box-shadow: none; }
+    }
+
+    .print-btn {
+      display: block;
+      margin: 24px auto 0;
+      padding: 14px 48px;
+      background: linear-gradient(135deg, #1e3a5f, #7c3aed);
+      color: white;
+      border: none;
+      border-radius: 100px;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(30,58,95,0.3);
+    }
+    .print-btn:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <h1>Critical Thinking, Design Thinking, Leadership and Teamwork</h1>
+      <p>Task #02 — Complex Problem Table | Article Reference using Different Literatures</p>
+    </div>
+    <div class="header-right">
+      <div class="lt-logo">L&T EduTech</div>
+      <div>Galgotias University</div>
+    </div>
+  </div>
+
+  <!-- META -->
+  <div class="meta">
+    <div class="meta-grid">
+      <div class="meta-item">
+        <div class="meta-label">Student Name</div>
+        <div class="meta-value">Lakshya Kumar Gupta</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Batch</div>
+        <div class="meta-value">Batch No: 5</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Task</div>
+        <div class="meta-value">Task #02 — Complex Problem Table</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">College</div>
+        <div class="meta-value">Galgotias University</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Course</div>
+        <div class="meta-value">CT&amp;DT — CTDT</div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-label">Date</div>
+        <div class="meta-value">June 2026</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <div class="task-title">Complex Problem Identification Table</div>
+    <div class="task-subtitle">Topic: Design Thinking in Engineering — Identification of Complex Problems using Literature</div>
+    <div class="task-note">📚 Minimum 3 application domains | Referenced from different literatures</div>
+
+    <!-- PATH -->
+    <div class="path-box">
+      <div class="path-label">Submission Path</div>
+      <div class="path-value">CT&amp;DT-Galgotias-Batch No:5 -Task 2- Complex Problem Table</div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Application Domain</th>
+            <th>Complex Problem Identified</th>
+            <th>Justification</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td>1</td>
+            <td>
+              <div class="domain-badge d1">Healthcare</div>
+              <div style="font-weight:600; font-size:0.82rem;">Biomedical Engineering</div>
+            </td>
+            <td>
+              <div class="problem-text">Drug-Resistant Bacterial Infections in ICU Patients</div>
+              <div class="problem-detail">Rising antimicrobial resistance (AMR) in ICUs leads to untreatable infections, causing 700,000+ deaths/year globally. Standard antibiotics are failing due to bacterial mutation and overuse.</div>
+            </td>
+            <td>
+              <div class="just-text">AMR is classified as one of the top 10 global public health threats by WHO (2019). The complexity arises from multi-factorial causes including misuse of antibiotics, lack of new drug pipelines, and cross-infection in hospital environments. Design Thinking can reframe the problem from treatment to prevention through smart diagnostic tools, stewardship protocols, and AI-driven drug discovery platforms.</div>
+              <div class="just-source">📖 Source: WHO Antimicrobial Resistance Report 2019; Laxminarayan et al., The Lancet (2013)</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>
+              <div class="domain-badge d2">Renewable Energy</div>
+              <div style="font-weight:600; font-size:0.82rem;">Environmental Engineering</div>
+            </td>
+            <td>
+              <div class="problem-text">Energy Storage Limitation of Solar Power for Grid Stability</div>
+              <div class="problem-detail">Solar energy generation is intermittent — it produces power only during daylight. Without cost-effective, large-scale storage, excess solar energy is wasted while grids remain unstable at night or during cloudy periods.</div>
+            </td>
+            <td>
+              <div class="just-text">The International Energy Agency (IEA) reports that grid-scale storage is the biggest barrier to 100% renewable energy adoption. Current lithium-ion battery technology is expensive, resource-intensive, and has limited cycle life. The complexity involves electrochemical engineering, grid management, economic viability, and policy alignment — a true multi-disciplinary challenge requiring Design Thinking for system-level innovation.</div>
+              <div class="just-source">📖 Source: IEA World Energy Outlook 2023; Dunn et al., Science (2011)</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>
+              <div class="domain-badge d3">Manufacturing</div>
+              <div style="font-weight:600; font-size:0.82rem;">Industry 4.0 / Smart Manufacturing</div>
+            </td>
+            <td>
+              <div class="problem-text">Unplanned Downtime in CNC Machines due to Unpredictable Failure</div>
+              <div class="problem-detail">In large-scale manufacturing plants, CNC machine failures cause unplanned downtime costing up to $260,000/hour (Aberdeen Group). Root causes include tool wear, spindle failure, and thermal deformation — all difficult to predict with conventional monitoring.</div>
+            </td>
+            <td>
+              <div class="just-text">McKinsey (2022) estimates that predictive maintenance can reduce machine downtime by 30–50% and maintenance costs by 25%. However, implementation is complex due to heterogeneous sensor data, legacy machine infrastructure, and lack of standardized AI models. Design Thinking helps re-engineer maintenance workflows — shifting from reactive to predictive paradigms — through IoT integration, digital twin simulation, and human-centered alert dashboards for technicians.</div>
+              <div class="just-source">📖 Source: McKinsey Industry 4.0 Report (2022); Tao et al., IEEE Access (2018)</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>
+              <div class="domain-badge d4">Transportation</div>
+              <div style="font-weight:600; font-size:0.82rem;">Urban Mobility / Logistics</div>
+            </td>
+            <td>
+              <div class="problem-text">Last-Mile Delivery Inefficiency in Dense Urban Areas</div>
+              <div class="problem-detail">Last-mile delivery accounts for 53% of total shipping costs (Capgemini, 2019). Urban congestion, failed delivery attempts, and fragmented logistics networks create a complex, costly, and environmentally damaging final step in supply chains.</div>
+            </td>
+            <td>
+              <div class="just-text">The last-mile problem is a complex systems challenge involving urban planning, consumer behavior, vehicle routing, and carbon emission constraints. Design Thinking reveals that the root cause is not just logistics but the mismatch between delivery windows and customer availability. Solutions like micro-fulfillment centers, drone delivery, and AI-powered route optimization require interdisciplinary collaboration across engineering, policy, and behavioral science.</div>
+              <div class="just-source">📖 Source: Capgemini Research Institute (2019); Boysen et al., European Journal of OR (2021)</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>
+              <div class="domain-badge d5">Agriculture</div>
+              <div style="font-weight:600; font-size:0.82rem;">Food Technology / AgriTech</div>
+            </td>
+            <td>
+              <div class="problem-text">Post-Harvest Food Loss in Developing Nations</div>
+              <div class="problem-detail">Approximately 14% of the world's food is lost between harvest and retail (FAO, 2019), causing $400 billion in annual losses. Poor cold chain infrastructure, inadequate storage, and lack of market linkages are primary causes in developing countries like India.</div>
+            </td>
+            <td>
+              <div class="just-text">Post-harvest loss is a wicked problem because it spans agronomy, cold chain logistics, market economics, and farmer literacy. The complexity is amplified by rural infrastructure gaps and climate variability. Design Thinking empathy mapping with smallholder farmers reveals that the actual user need is not just storage — but market access and fair pricing. Solutions must co-design cold storage cooperatives, mobile market platforms, and government policy reform simultaneously.</div>
+              <div class="just-source">📖 Source: FAO Food Loss and Waste Report (2019); Kumar & Kalita, Sustainability MDPI (2017)</div>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="summary">
+      <h3>📌 Key Observations from Literature</h3>
+      <ul class="summary-list">
+        <li>Complex problems are multi-disciplinary — they span engineering, policy, economics, and human behavior simultaneously</li>
+        <li>Design Thinking uniquely addresses complex problems by starting with empathy — understanding the human at the center of the system</li>
+        <li>Literature across all 5 domains confirms that purely technical solutions fail without human-centered design and stakeholder co-creation</li>
+        <li>All identified problems are characterized by high uncertainty, multiple conflicting constraints, and no single "correct" solution — hallmarks of true complexity</li>
+        <li>Iterative prototyping (core to Design Thinking) allows low-cost testing of solutions before large-scale investment</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <span>CT&amp;DT-Galgotias-Batch No:5-Task 2-Complex Problem Table · Lakshya Kumar Gupta</span>
+    <span>Galgotias University · June 2026</span>
+  </div>
+
+</div>
+
+<button class="print-btn" onclick="window.print()">⬇️ Save as PDF (Ctrl+P → Save as PDF)</button>
+
+</body>
+</html>

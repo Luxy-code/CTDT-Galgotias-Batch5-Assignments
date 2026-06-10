@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 08 – Extempore Activity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #e2e8f0;
+      padding: 30px 20px;
+      color: #1e293b;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    }
+
+    /* HEADER */
+    .header {
+      background: #1e3a5f;
+      padding: 28px 48px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header h1 { font-size: 0.95rem; font-weight: 700; margin-bottom: 4px; }
+    .header p { font-size: 0.75rem; opacity: 0.75; }
+    .lt-logo {
+      background: white;
+      color: #1e3a5f;
+      font-weight: 900;
+      font-size: 0.82rem;
+      padding: 5px 10px;
+      border-radius: 4px;
+      margin-bottom: 4px;
+      display: inline-block;
+    }
+
+    /* META */
+    .meta {
+      background: #f8fafc;
+      border-bottom: 2px solid #1e3a5f;
+      padding: 18px 48px;
+    }
+    .meta-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+    .meta-label { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-bottom: 3px; }
+    .meta-value { font-size: 0.8rem; font-weight: 600; color: #1e293b; }
+
+    /* BODY */
+    .body { padding: 36px 48px; }
+
+    .doc-title { font-size: 1.15rem; font-weight: 800; color: #1e3a5f; margin-bottom: 4px; }
+    .doc-subtitle { font-size: 0.82rem; color: #64748b; margin-bottom: 6px; }
+    .path-box {
+      background: #f8fafc; border: 1px dashed #cbd5e1;
+      border-radius: 8px; padding: 10px 16px; margin-bottom: 28px; display: inline-block;
+    }
+    .path-label { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-bottom: 2px; }
+    .path-value { font-size: 0.78rem; font-family: monospace; color: #7c3aed; font-weight: 600; }
+
+    /* EXTEMPORE CARD */
+    .extempore {
+      margin-bottom: 36px;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .extempore-header {
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .e1 .extempore-header { background: linear-gradient(135deg, #1e3a5f, #2563eb); }
+    .e2 .extempore-header { background: linear-gradient(135deg, #059669, #0d9488); }
+    .e3 .extempore-header { background: linear-gradient(135deg, #7c3aed, #a855f7); }
+
+    .ext-icon { font-size: 1.8rem; }
+    .ext-meta { color: white; }
+    .ext-num { font-size: 0.68rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; opacity: 0.8; }
+    .ext-title { font-size: 1.05rem; font-weight: 800; margin-top: 2px; }
+
+    .extempore-body { padding: 24px; }
+
+    .ext-tag {
+      display: inline-block;
+      padding: 3px 12px;
+      border-radius: 100px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      border: 1px solid;
+    }
+    .e1 .ext-tag { background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe; }
+    .e2 .ext-tag { background: #f0fdf4; color: #15803d; border-color: #bbf7d0; }
+    .e3 .ext-tag { background: #faf5ff; color: #7c3aed; border-color: #ddd6fe; }
+
+    .speech {
+      font-family: 'Merriweather', serif;
+      font-size: 0.85rem;
+      line-height: 1.9;
+      color: #334155;
+    }
+    .speech p { margin-bottom: 14px; }
+    .speech .opening {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #1e293b;
+      font-style: italic;
+    }
+    .speech .closing {
+      font-style: italic;
+      color: #64748b;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 12px;
+      margin-top: 4px;
+    }
+
+    .key-points {
+      background: #f8fafc;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 16px;
+    }
+    .key-points-title { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-bottom: 8px; }
+    .key-points ul { list-style: none; }
+    .key-points li { font-size: 0.75rem; color: #475569; padding: 3px 0; display: flex; gap: 8px; }
+    .key-points li::before { content: '▸'; font-weight: 700; }
+    .e1 .key-points li::before { color: #2563eb; }
+    .e2 .key-points li::before { color: #059669; }
+    .e3 .key-points li::before { color: #7c3aed; }
+
+    /* FOOTER */
+    .footer {
+      background: #1e3a5f; color: white;
+      padding: 16px 48px;
+      display: flex; justify-content: space-between;
+      font-size: 0.7rem; opacity: 0.9;
+    }
+
+    @page {
+      margin: 0;
+      size: A4;
+    }
+    @media print {
+      body { background: white; padding: 0; }
+      .print-btn { display: none !important; }
+      .page { box-shadow: none; }
+    }
+
+    .print-btn {
+      display: block; margin: 24px auto 0;
+      padding: 14px 48px;
+      background: linear-gradient(135deg, #1e3a5f, #7c3aed);
+      color: white; border: none; border-radius: 100px;
+      font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 700;
+      cursor: pointer; box-shadow: 0 8px 24px rgba(30,58,95,0.3);
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <h1>Critical Thinking, Design Thinking, Leadership and Teamwork</h1>
+      <p>Task #08 — Extempore Activity | Design Thinking for Co-curricular Skills</p>
+    </div>
+    <div style="text-align:right">
+      <div class="lt-logo">L&T EduTech</div>
+      <div style="font-size:0.72rem;opacity:0.75">Galgotias University</div>
+    </div>
+  </div>
+
+  <!-- META -->
+  <div class="meta">
+    <div class="meta-grid">
+      <div><div class="meta-label">Student</div><div class="meta-value">Lakshya Kumar Gupta</div></div>
+      <div><div class="meta-label">Batch</div><div class="meta-value">Batch No: 5</div></div>
+      <div><div class="meta-label">Task</div><div class="meta-value">Task #08 — Extempore Activity</div></div>
+      <div><div class="meta-label">College</div><div class="meta-value">Galgotias University</div></div>
+      <div><div class="meta-label">Topic</div><div class="meta-value">IT in Emerging Industries</div></div>
+      <div><div class="meta-label">Date</div><div class="meta-value">June 2026</div></div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+    <div class="doc-title">Extempore Activity — 3 Topics</div>
+    <div class="doc-subtitle">Prepared extempore speeches on the role of Information Technology in Automobile, Metro Rail, and Avionics industries.</div>
+    <div class="path-box">
+      <div class="path-label">Submission Path</div>
+      <div class="path-value">CT&amp;DT-Galgotias-Batch No:5-Task 8-extempore activity</div>
+    </div>
+
+    <!-- ── EXTEMPORE 1: IT IN AUTOMOBILE ── -->
+    <div class="extempore e1">
+      <div class="extempore-header">
+        <div class="ext-icon">🚗</div>
+        <div class="ext-meta">
+          <div class="ext-num">Extempore 01</div>
+          <div class="ext-title">IT in Automobile</div>
+        </div>
+      </div>
+      <div class="extempore-body">
+        <div class="ext-tag">⏱ Approx. 2–3 minutes | 350 words</div>
+        <div class="speech">
+          <p class="opening">"Good morning everyone. Today, I want to talk about something that has completely transformed the way we drive, the way we build cars, and the way we think about transportation — Information Technology in the Automobile Industry."</p>
+
+          <p>Not too long ago, a car was simply a mechanical machine — an engine, wheels, and a steering wheel. But today, a modern automobile is essentially a computer on wheels. Think about it — your car has more computing power than the Apollo spacecraft that landed on the moon.</p>
+
+          <p>Information Technology has revolutionized the automobile sector in four major dimensions. First, <strong>Vehicle Design and Manufacturing</strong> — CAD software, simulation tools, and Digital Twins have replaced paper blueprints. Engineers can now design, test, and optimize a car virtually before building a single prototype, saving billions in development costs. Tesla, for instance, can push software updates to your car overnight — just like your smartphone.</p>
+
+          <p>Second, <strong>Connected and Smart Vehicles</strong> — IoT-enabled cars communicate with traffic signals, other vehicles (V2V), and cloud servers in real time. GPS navigation, real-time traffic updates, and predictive engine diagnostics are now standard features. BMW's ConnectedDrive platform monitors over 200 vehicle parameters live.</p>
+
+          <p>Third, <strong>Electric and Autonomous Vehicles</strong> — AI and machine learning algorithms power the brains of self-driving cars. Companies like Waymo and Tesla use computer vision, LiDAR sensors, and deep learning to enable vehicles to make split-second decisions without human intervention.</p>
+
+          <p>Finally, <strong>Supply Chain and After-Sales</strong> — ERP systems, blockchain-based parts tracking, and AR-assisted maintenance are transforming how cars are built, delivered, and serviced.</p>
+
+          <p class="closing">The automobile of tomorrow is not just a vehicle — it is a mobile data center, a personal assistant, and a safety system all in one. Information Technology is not just supporting the automobile industry — it IS the automobile industry now. Thank you.</p>
+        </div>
+        <div class="key-points">
+          <div class="key-points-title">🔑 Key Points Covered</div>
+          <ul>
+            <li>CAD, Digital Twins in design & manufacturing</li>
+            <li>IoT connectivity — V2V, V2X communication</li>
+            <li>AI/ML in autonomous & electric vehicles</li>
+            <li>Blockchain in supply chain, AR in maintenance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── EXTEMPORE 2: IT IN METRO RAIL ── -->
+    <div class="extempore e2">
+      <div class="extempore-header">
+        <div class="ext-icon">🚇</div>
+        <div class="ext-meta">
+          <div class="ext-num">Extempore 02</div>
+          <div class="ext-title">IT in Metro Rail</div>
+        </div>
+      </div>
+      <div class="extempore-body">
+        <div class="ext-tag">⏱ Approx. 2–3 minutes | 360 words</div>
+        <div class="speech">
+          <p class="opening">"Distinguished guests and fellow students, imagine a city without traffic jams — where millions of people move seamlessly, safely, and sustainably every single day. This is not a dream. This is the reality that Information Technology has enabled through modern Metro Rail systems."</p>
+
+          <p>Metro Rail systems around the world — from the Delhi Metro to Tokyo's Shinkansen — are no longer just trains on tracks. They are <strong>integrated smart transportation ecosystems</strong>, powered entirely by Information Technology.</p>
+
+          <p>Let me highlight the critical role IT plays. First, <strong>Automatic Train Operation (ATO)</strong> — modern metro systems use computer-controlled operations where trains accelerate, decelerate, and stop with millimetre precision — without a driver. The Communication-Based Train Control (CBTC) system uses wireless data links to monitor train positions in real time, allowing trains to run just 90 seconds apart safely, maximising passenger capacity.</p>
+
+          <p>Second, <strong>Passenger Information Systems</strong> — digital display boards, real-time app integration, and smart ticketing through RFID cards and QR codes have made commuting frictionless. The Delhi Metro's One Delhi app allows passengers to plan journeys, buy tickets, and check live train positions from their phones.</p>
+
+          <p>Third, <strong>Predictive Maintenance</strong> — sensors embedded in rail tracks, wheels, and electrical systems continuously monitor for anomalies. AI algorithms predict component failures days before they occur, preventing breakdowns and ensuring 99.9% operational uptime — as achieved by the Singapore MRT.</p>
+
+          <p>Fourth, <strong>Energy Management</strong> — IT-enabled regenerative braking systems in metro trains recover kinetic energy and feed it back into the power grid. Delhi Metro alone saves 90,000 units of electricity daily using this technology.</p>
+
+          <p>Finally, <strong>Security and Surveillance</strong> — AI-powered CCTV systems with facial recognition and crowd density analytics ensure passenger safety across hundreds of stations simultaneously.</p>
+
+          <p class="closing">Metro Rail is no longer just a mode of transport — it is a living, breathing, data-driven smart city backbone. And at the heart of its efficiency, safety, and sustainability is Information Technology. Thank you.</p>
+        </div>
+        <div class="key-points">
+          <div class="key-points-title">🔑 Key Points Covered</div>
+          <ul>
+            <li>CBTC — Automatic Train Operation & control</li>
+            <li>Smart ticketing — RFID, QR, mobile apps</li>
+            <li>AI predictive maintenance for zero downtime</li>
+            <li>Energy recovery via regenerative braking IT systems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── EXTEMPORE 3: IT IN AVIONICS ── -->
+    <div class="extempore e3">
+      <div class="extempore-header">
+        <div class="ext-icon">✈️</div>
+        <div class="ext-meta">
+          <div class="ext-num">Extempore 03</div>
+          <div class="ext-title">IT in Avionics</div>
+        </div>
+      </div>
+      <div class="extempore-body">
+        <div class="ext-tag">⏱ Approx. 2–3 minutes | 370 words</div>
+        <div class="speech">
+          <p class="opening">"Ladies and gentlemen, every time a commercial aircraft takes off, approximately 100 miles of wiring, hundreds of sensors, and millions of lines of software code work in perfect harmony — 35,000 feet above the ground — to keep you safe. Welcome to the world of Avionics — where Information Technology means the difference between life and death."</p>
+
+          <p>Avionics is the application of electronics and information technology to aviation. It is the nervous system of every aircraft. Modern commercial aircraft like the Boeing 787 Dreamliner and Airbus A350 are not just flying machines — they are <strong>flying data centres</strong>.</p>
+
+          <p>Let's explore IT's role in avionics. First, <strong>Flight Management Systems (FMS)</strong> — these computer systems calculate the optimal flight path, fuel consumption, altitude, and speed in real time, considering weather patterns, air traffic, and aircraft weight. The FMS can execute an entire flight autonomously from takeoff to landing — pilots monitor and override when needed.</p>
+
+          <p>Second, <strong>Fly-by-Wire Technology</strong> — traditional mechanical cables controlling aircraft surfaces have been replaced by electronic signals processed by computers. The Airbus A320 — the world's most common commercial aircraft — uses fly-by-wire exclusively. The computer prevents the pilot from executing manoeuvres that could structurally damage the aircraft — a safety paradigm only possible through IT.</p>
+
+          <p>Third, <strong>Health and Usage Monitoring Systems (HUMS)</strong> — sensors across the aircraft transmit thousands of data points per second to ground control systems. Rolls-Royce's Engine Health Management system monitors jet engines in real time from the ground, predicting failures before they occur and scheduling maintenance proactively.</p>
+
+          <p>Fourth, <strong>Air Traffic Management (ATM)</strong> — IT systems coordinate thousands of flights simultaneously across global airspace. ISRO's GAGAN system in India uses GPS and ground stations to provide precision navigation, significantly reducing fuel consumption and improving safety in Indian airspace.</p>
+
+          <p>Fifth, <strong>Cockpit Displays and AI Assistance</strong> — modern glass cockpits replaced thousands of analogue instruments with a few multi-function displays. AI co-pilot systems now assist in navigation, emergency protocols, and communication.</p>
+
+          <p class="closing">In avionics, Information Technology is not a feature — it is the foundation. Every safe landing, every efficient route, every life saved at 35,000 feet is a testament to the power of IT in aviation. Thank you.</p>
+        </div>
+        <div class="key-points">
+          <div class="key-points-title">🔑 Key Points Covered</div>
+          <ul>
+            <li>Flight Management Systems — autonomous flight planning</li>
+            <li>Fly-by-Wire — electronic aircraft control</li>
+            <li>HUMS — real-time engine health monitoring</li>
+            <li>Air Traffic Management — GAGAN, GPS integration</li>
+            <li>Glass cockpits & AI co-pilot systems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /body -->
+
+  <div class="footer">
+    <span>CT&amp;DT-Galgotias-Batch No:5-Task 8-Extempore Activity · Lakshya Kumar Gupta</span>
+    <span>Galgotias University · Batch 5 · June 2026</span>
+  </div>
+
+</div>
+
+<button class="print-btn" onclick="window.print()">⬇️ Save as PDF (Ctrl+P → Save as PDF)</button>
+
+</body>
+</html>

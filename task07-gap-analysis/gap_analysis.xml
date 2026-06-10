@@ -1,0 +1,50 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- TITLE -->
+    <mxCell id="title" value="Gap Analysis — EduNest Smart Campus App&#xa;CT&amp;DT-Galgotias | Batch No:5 | Task 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1e293b;" vertex="1" parent="1">
+      <mxGeometry x="100" y="40" width="900" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- BOX 1: CURRENT STATE -->
+    <mxCell id="current_state" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;CURRENT STATE&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Students use 4-5 different apps/portals&lt;br&gt;• Manual attendance tracking&lt;br&gt;• Missed assignment deadlines&lt;br&gt;• No centralized communication&lt;br&gt;• High academic stress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;fontColor=#991b1b;strokeColor=#dc2626;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="100" y="150" width="280" height="250" as="geometry" />
+    </mxCell>
+
+    <!-- BOX 2: DESIRED STATE -->
+    <mxCell id="desired_state" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;DESIRED STATE&lt;/b&gt;&lt;br&gt;&lt;br&gt;• One unified smart campus app&lt;br&gt;• Real-time automated attendance alerts&lt;br&gt;• Proactive deadline reminders&lt;br&gt;• Seamless peer/faculty communication&lt;br&gt;• Reduced stress &amp;amp; better grades" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;fontColor=#166534;strokeColor=#16a34a;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="720" y="150" width="280" height="250" as="geometry" />
+    </mxCell>
+
+    <!-- THE GAP (Middle) -->
+    <mxCell id="the_gap" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;THE GAP&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Lack of system integration&lt;br&gt;• No automated data flow between departments&lt;br&gt;• Poor mobile user experience&lt;br&gt;• No predictive analytics for student performance" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fef3c7;fontColor=#92400e;strokeColor=#d97706;align=center;verticalAlign=middle;fontSize=13;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+      <mxGeometry x="420" y="185" width="260" height="180" as="geometry" />
+    </mxCell>
+
+    <!-- ARROWS -->
+    <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=4;endArrow=block;endFill=1;" edge="1" source="current_state" target="the_gap" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=4;endArrow=block;endFill=1;" edge="1" source="the_gap" target="desired_state" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ACTION PLAN (Bottom) -->
+    <mxCell id="action_plan" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;ACTION PLAN (How to close the gap)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. &lt;b&gt;Development:&lt;/b&gt; Build EduNest mobile app using React Native for cross-platform support.&lt;br&gt;2. &lt;b&gt;Integration:&lt;/b&gt; Connect app to existing college ERP databases via APIs.&lt;br&gt;3. &lt;b&gt;Features:&lt;/b&gt; Implement push notification engine for attendance and assignments.&lt;br&gt;4. &lt;b&gt;Deployment:&lt;/b&gt; Launch beta version to a pilot batch of students and gather feedback." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;fontColor=#1e3a8a;strokeColor=#2563eb;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="100" y="450" width="900" height="140" as="geometry" />
+    </mxCell>
+
+    <mxCell id="arrow_down1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#64748b;strokeWidth=3;endArrow=block;endFill=1;dashed=1;" edge="1" source="the_gap" target="action_plan" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- FOOTER -->
+    <mxCell id="footer" value="&lt;b&gt;CT&amp;DT-Galgotias-Batch No:5 | Task 7 — Gap Analysis | Product: EduNest Smart Campus App | Student: Lakshya Kumar Gupta&lt;/b&gt;&#xa;🐙 GitHub: https://github.com/Luxy-code/CTDT-Galgotias-Batch5-Task7-Gap-Analysis" style="text;html=1;strokeColor=#7c3aed;fillColor=#faf5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#64748b;" vertex="1" parent="1">
+      <mxGeometry x="100" y="630" width="900" height="50" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

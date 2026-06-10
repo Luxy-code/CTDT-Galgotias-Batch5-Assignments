@@ -1,0 +1,77 @@
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- TITLE -->
+    <mxCell id="title" value="Inference Mapping: Industrial Case Studies&#xa;CT&amp;DT-Galgotias | Batch No:5 | Task 10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1e3a5f;" vertex="1" parent="1">
+      <mxGeometry x="50" y="40" width="1490" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 1 -->
+    <mxCell id="c1" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;01 | Renewable Energy (Rural)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; High transmission costs for last-mile grid.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Decentralized community-owned solar micro-grids with pay-as-you-go financial models are essential for inclusive adoption." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="150" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 2 -->
+    <mxCell id="c2" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;02 | Smart Mfg in MSMEs&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; High cost barriers to Industry 4.0.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Low-cost modular IoT retrofits combined with human-centered worker upskilling ensures adoption without massive capital investment." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#2563eb;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="430" y="150" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 3 -->
+    <mxCell id="c3" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;03 | Fluid Machinery Failure&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Unexpected downtime and safety hazards.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; AI-driven predictive maintenance combined with Digital Twins prevents failure. Engineers need actionable alerts, not raw data overload." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#dc2626;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="810" y="150" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 4 -->
+    <mxCell id="c4" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;04 | Robots in Welding&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Hazards in confined/toxic spaces.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Human-robot collaboration (Cobots) with Computer Vision inspection reduces defects. Retraining workers as supervisors alleviates job anxiety." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#9333ea;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="1190" y="150" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 5 -->
+    <mxCell id="c5" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;05 | Material Handling&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Inefficient transit causing productivity loss.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Automated Guided Vehicles (AGVs) must be paired with ergonomic workflow redesign to reduce worker fatigue and optimize system-level flow." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#d97706;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="350" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 6 -->
+    <mxCell id="c6" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;06 | Bio-materials in 3D Printing&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; E-waste from conventional plastics.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; PLA/PHA polymers enable zero-waste additive manufacturing. Adoption requires co-designing the entire circular product lifecycle." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="430" y="350" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 7 -->
+    <mxCell id="c7" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;07 | Orthopedics Bio-med&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Poor fit of standard surgical implants.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Patient-specific 3D-printed titanium implants drastically improve outcomes. Personalization is the core design principle." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#2563eb;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="810" y="350" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 8 -->
+    <mxCell id="c8" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;08 | AR in Inventory&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Error-prone manual barcode scanning.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; AR smart glasses reduce picking errors by 40%. Success relies on ergonomic design (weight, battery) tailored for factory floor conditions." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#faf5ff;strokeColor=#9333ea;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="1190" y="350" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 9 -->
+    <mxCell id="c9" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;09 | Digital Twin for Rotors&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Unpredictable power plant shutdowns.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Continuous virtual health monitoring. Trust is built through transparent, explainable AI 3D dashboards for operators." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#dc2626;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="550" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 10 -->
+    <mxCell id="c10" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;10 | Supply Chain (LPG/Agro)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Inefficient rural last-mile delivery.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; AI route optimization + SMS tracking. Design must accommodate low-connectivity and low-literacy users (offline-first design)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#d97706;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="430" y="550" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 11 -->
+    <mxCell id="c11" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;11 | Railway Ticketing&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Scalability and rural accessibility issues.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Dynamic AI seat allocation. System must employ Universal Design (USSD/Aadhaar) to serve both tech-savvy and first-time digital users." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#2563eb;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="810" y="550" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CARD 12 -->
+    <mxCell id="c12" value="&lt;b style=&quot;color:#1e3a5f;font-size:14px;&quot;&gt;12 | Process Plant Drones&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Problem:&lt;/b&gt; Hazardous and slow manual inspection.&lt;br&gt;&lt;b&gt;Inference:&lt;/b&gt; Autonomous drone swarms with LiDAR. Policy design (DGCA compliance) is equally as critical as technical drone capabilities." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="1190" y="550" width="350" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- FOOTER -->
+    <mxCell id="footer" value="&lt;b&gt;CT&amp;DT-Galgotias-Batch No:5 | Task 10 — Inference Mapping | Student: Lakshya Kumar Gupta&lt;/b&gt;&#xa;🐙 GitHub: https://github.com/Luxy-code/CTDT-Galgotias-Batch5-Assignments" style="text;html=1;strokeColor=#1e3a5f;fillColor=#f8fafc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#475569;" vertex="1" parent="1">
+      <mxGeometry x="50" y="750" width="1490" height="50" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

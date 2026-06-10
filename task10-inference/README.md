@@ -23,11 +23,11 @@ Galgotias University · Batch No: 5 · Task #10
 
 ---
 
-## 🔗 Lucid Chart — Inference Map
+## 🔗 Lucid Chart — Inference Mapping
 
-> 📊 **[View Inference Map on Lucid Chart](#)**
+> 📊 **[View Inference Mapping on Lucid Chart](https://lucid.app/lucidchart/a54c2501-017f-410c-bf07-0e8dd96b6824/edit?viewport_loc=156%2C39%2C2308%2C1266%2CPpdftBp8WJxKJ&invitationId=inv_d34628d3-149a-414b-9e10-c327432d9383)**
 >
-> *(Sharable link will be added here)*
+> Click the link above to view the full interactive Inference Mapping diagram created in Lucid Chart.
 
 ---
 

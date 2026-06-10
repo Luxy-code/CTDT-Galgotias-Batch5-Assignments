@@ -25,9 +25,9 @@ Galgotias University · Batch No: 5 · Task #09
 
 ## 🔗 Lucid Chart — Stakeholder Mapping
 
-> 🗺️ **[View Stakeholder Mapping on Lucid Chart](#)**
+> 🗺️ **[View Stakeholder Mapping on Lucid Chart](https://lucid.app/lucidchart/6599a260-9881-49b8-8a81-be63a255812d/edit?viewport_loc=-374%2C65%2C2509%2C1376%2CpLQ2yOlIF3qd0&invitationId=inv_0c9c2265-38bd-49eb-a7df-2beb38e66b1e)**
 >
-> *(The sharable Lucid chart link will be inserted here)*
+> Click the link above to view the full Stakeholder Mapping (Power/Interest Grid) created in Lucid Chart.
 
 ---
 

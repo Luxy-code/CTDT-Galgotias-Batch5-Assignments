@@ -1,0 +1,60 @@
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- TITLE -->
+    <mxCell id="title" value="User Persona: Smart Meal Prep App&#xa;CT&amp;DT-Galgotias | Batch No:5 | Task 04" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1e293b;" vertex="1" parent="1">
+      <mxGeometry x="100" y="40" width="1000" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- HEADER / PROFILE -->
+    <mxCell id="profile_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e3a8a;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="100" y="120" width="1000" height="120" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="profile_name" value="&lt;b style='font-size:24px;'&gt;Brian Patel (28)&lt;/b&gt;&lt;br&gt;&lt;i style='font-size:16px;'&gt;The Busy Tech Professional&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="140" y="140" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <mxCell id="quote" value="&lt;i style='font-size:16px;'&gt;&amp;quot;I want to eat healthy and save money, but after a 10-hour workday, I just don't have the energy to cook.&amp;quot;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#bfdbfe;" vertex="1" parent="1">
+      <mxGeometry x="650" y="140" width="400" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- DEMOGRAPHICS -->
+    <mxCell id="demo" value="&lt;b style='font-size:16px; color:#1e40af;'&gt;Demographic Information&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Age:&lt;/b&gt; 28&lt;br&gt;&lt;b&gt;Occupation:&lt;/b&gt; Software Engineer&lt;br&gt;&lt;b&gt;Location:&lt;/b&gt; Bangalore / Urban City&lt;br&gt;&lt;b&gt;Income:&lt;/b&gt; ₹15 LPA&lt;br&gt;&lt;b&gt;Status:&lt;/b&gt; Single, living alone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#bfdbfe;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="100" y="270" width="480" height="160" as="geometry" />
+    </mxCell>
+
+    <!-- GOALS & OBJECTIVES -->
+    <mxCell id="goals" value="&lt;b style='font-size:16px; color:#166534;'&gt;Goals and Objectives&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Maintain a healthy, high-protein diet for the gym.&lt;br&gt;• Reduce the money spent on ordering food daily via Swiggy/Zomato.&lt;br&gt;• Minimize time spent grocery shopping and meal planning.&lt;br&gt;• Learn to cook simple 15-minute meals." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#bbf7d0;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="620" y="270" width="480" height="160" as="geometry" />
+    </mxCell>
+
+    <!-- PSYCHOGRAPHICS -->
+    <mxCell id="psycho" value="&lt;b style='font-size:16px; color:#86198f;'&gt;Psychographic Information&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Interests:&lt;/b&gt; Tech gadgets, fitness, weekend gaming, podcasts.&lt;br&gt;&lt;b&gt;Personality Traits:&lt;/b&gt; Analytical, time-conscious, introverted, health-aware.&lt;br&gt;&lt;b&gt;Choices:&lt;/b&gt; Values convenience and automation over price." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf4ff;strokeColor=#f5d0fe;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="100" y="460" width="480" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- BEHAVIOR & PREFERENCE -->
+    <mxCell id="behavior" value="&lt;b style='font-size:16px; color:#9a3412;'&gt;Behavior and Preference&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Heavily relies on mobile apps for all services.&lt;br&gt;• Prefers digital payments and subscription models.&lt;br&gt;• Skips breakfast often due to morning rush.&lt;br&gt;• Highly responsive to push notifications regarding food deals." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#fed7aa;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="620" y="460" width="480" height="150" as="geometry" />
+    </mxCell>
+
+    <!-- CHALLENGES & PAIN POINTS -->
+    <mxCell id="pain" value="&lt;b style='font-size:16px; color:#991b1b;'&gt;Challenges and Pain Points&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;Decision Fatigue:&lt;/b&gt; Gets overwhelmed deciding what to eat after work.&lt;br&gt;• &lt;b&gt;Food Waste:&lt;/b&gt; Buys groceries on weekends but they rot because he orders takeout instead.&lt;br&gt;• &lt;b&gt;Guilt:&lt;/b&gt; Feels bad about health and expenses from junk food.&lt;br&gt;• &lt;b&gt;Lack of Skill:&lt;/b&gt; Doesn't know how to meal-prep efficiently." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#fecaca;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="100" y="640" width="480" height="170" as="geometry" />
+    </mxCell>
+
+    <!-- USER JOURNEY -->
+    <mxCell id="journey" value="&lt;b style='font-size:16px; color:#0f766e;'&gt;User Journey Overview&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;Morning (8 AM):&lt;/b&gt; Wakes up late, grabs a coffee, skips breakfast.&lt;br&gt;• &lt;b&gt;Workday (1 PM):&lt;/b&gt; Eats a heavy canteen lunch, feels sluggish.&lt;br&gt;• &lt;b&gt;Evening (7 PM):&lt;/b&gt; Leaves work exhausted.&lt;br&gt;• &lt;b&gt;Night (8 PM):&lt;/b&gt; Opens fridge, sees raw veggies, gives up. Opens delivery app, orders pizza, feels guilty." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdfa;strokeColor=#ccfbf1;align=left;verticalAlign=top;spacingLeft=15;spacingTop=15;fontSize=14;fontColor=#334155;" vertex="1" parent="1">
+      <mxGeometry x="620" y="640" width="480" height="170" as="geometry" />
+    </mxCell>
+
+    <!-- FOOTER -->
+    <mxCell id="footer" value="CTDT-Galgotias-Batch No:5 | Task 4 — User Persona | Student: Lakshya Kumar Gupta&#xa;🐙 GitHub: https://github.com/Luxy-code/CTDT-Galgotias-Batch5-Assignments" style="text;html=1;strokeColor=#e2e8f0;fillColor=#f8fafc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#64748b;" vertex="1" parent="1">
+      <mxGeometry x="100" y="850" width="1000" height="50" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

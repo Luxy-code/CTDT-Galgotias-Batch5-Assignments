@@ -30,9 +30,9 @@ Galgotias University · Batch No: 5 · Task #07
 
 ## 📊 Gap Analysis Diagram
 
-> 🔗 **[View Gap Analysis on Lucid Chart](#)**
+> 🔗 **[View Gap Analysis on Lucid Chart](https://lucid.app/lucidchart/672330c3-5fab-4bc3-9089-d1052342f4e9/edit?viewport_loc=-19%2C36%2C2098%2C1150%2C39XiU8s5qZBri&invitationId=inv_7c6608ea-a821-4993-bb75-058c0c1c21d4)**
 >
-> *(The sharable Lucid chart link will be updated here)*
+> Click the link above to view the full interactive Gap Analysis diagram for EduNest created in Lucid Chart.
 
 ---
 
